@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="I am Binesh Narayanan, a experienced Java Software developer with hands-on experience on Spring framework, SQL, jQuery, Javascript" />
+	<meta name="keywords" content="Binesh, Binesh Narayanan, Java, Java Web developer, Spring, Spring Data, India, Hong Kong, Oracle, SQL" />
+	<meta name="author" content="Binesh Narayanan">
+    <title>Binesh Narayanan</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="css/profile.css" rel="stylesheet">
+	<style>
+		.bg-green {
+			background-color:#18b170 !important;
+		}
+
+		.about {
+			background-color:#f0f0f0 !important;
+		}
+
+		.timeline {
+			background-color:#ffe6b3 !important;
+		}
+
+		.skills {
+			background-color:#ffdcdc !important;
+		}
+
+
+	</style>
+  </head>
+  <body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-green fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Binesh Narayanan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills" id="lnk-Skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#timeline">Timeline</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="bg-green text-white">
+      <div class="container text-center head-text">
+        <h1 class="tagline">I'm <span id="typed"></span></h1>
+		<h4 class="sub-tagline"><i>Java. Spring. SQL. jQuery. JavaScript. Git. Maven</i></h4>
+		<div class="row social-links">
+			<div class="col-md-4 col-4">&nbsp;</div>
+			<div class="col-md-1 col-1">
+				<span class="fa fa-github-square"></span>
+			</div>
+			<div class="col-md-1 col-1">
+				<span class="fa fa-linkedin-square"></span>
+			</div>
+			<div class="col-md-1 col-1">
+				<span class="fa fa-google"></span>
+			</div>
+			<div class="col-md-1 col-1">
+				<span class="fa fa-facebook-square"></span>
+			</div>
+			<div class="col-md-4 col-4">&nbsp;</div>
+		</div>
+      </div>
+    </header>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+			<div class="col-md-4 col-xs-12">
+				<img class="avatar" src="img/avatar.jpg">
+			</div>
+			<div class="col-md-8 col-xs-12">
+				<p class="lead" style="text-align:justify">
+					A Software Developer, with primary experience in Java and related frameworks.
+					I have been always involved in development of web interface applications.
+					I'm hands-on with Spring and its modules like Spring-MVC, Spring-Data, Spring-Security, etc.
+					Being a web developer, I'm proficient with jQuery, JavaScript, HTML and CSS. I am comfortable with Python and the framework Django.
+					I have been using them in my side-projects/weekend-projects.
+				</p>
+			</div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="row">
+			<div class="col-md-4">
+				<span class="fa fa-superpowers skills-icon" style="font-size:6em;"></span>
+			</div>
+			<div class="col-md-8">
+				<p class="lead">Java, Spring, Spring-MVC, Spring-Data, Hibernate, jQuery, JavaScript, SQL, Git, Maven</p>
+			</div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="timeline" class="timeline">
+      <div class="container">
+        <div class="row">
+			<div class="col-md-4">
+				<span class="fa fa-wrench skills-icon" style="font-size:6em;"></span>
+			</div>
+			<div class="col-lg-8">
+				<p class="lead"></p>
+			</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; bineshnarayanan.info 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/profile.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			//$('#main').fullpage({scrollingSpeed: 900});
+		});
+		var skills = {
+			  strings: ['<i>Java. Spring. SQL. jQuery. JavaScript. Git. Maven</i>'],
+			  typeSpeed: 60,
+			  smartBackspace:false
+			};
+		function showSkills(){
+			//var showSkillSet = new Typed("#typedSkills", skills);
+		}
+		var traits = {
+		  strings: ["a Programmer.", "a Software Enthusiast.","a Java Web Developer.","Binesh","Binesh Narayanan."],
+		  typeSpeed: 60,
+		  smartBackspace:false,
+		  backDelay: 500,
+		  onComplete: function(){
+				//showSkills();
+				lift();
+			}
+		};
+		var typed = new Typed("#typed", traits);
+
+		function lift(){
+			$(".head-text").addClass("lift-text");
+		}
+
+	</script>
+
+  </body>
+
+</html>
